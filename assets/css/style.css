@@ -62,7 +62,6 @@ a {
   top: 100px;
   right: 100px;
 
-
 }
 
 .page-wrapper {
@@ -150,8 +149,8 @@ a {
 
 .btn-primary {
   color: #fff;
-  background-color: #ba60db!important;
-  border-color: #ba60db!important;
+  background-color: #ba60db !important;
+  border-color: #ba60db !important;
 }
 
 
@@ -253,7 +252,151 @@ footer {
 
 /*---------- Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  .container {
-    margin-left:0 !important;
+  h1 {
+    font-size: 40px !important;
+    line-height: 43px !important;
+    letter-spacing: 1px !important;
+    left: 60px;
   }
+
+  .jumboPic {
+    background-position: 50% 0%;
+    margin-right: 0;
+    background-size: cover;
+    height: 70vh;
+  }
+
+  h2 {
+    font-size: 1.4em;
+  }
+
+
+  h3 {
+    width: 100%;
+    font-size: 1.2em;
+  }
+
+  .container {
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+  }
+
+  .customNav {
+    position: fixed !important;
+    top: 0px;
+    right: 10px;
+    max-width: 100%;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    overflow: hidden;
+    background: azure;
+    z-index:40;
+  }
+
+  nav ul.flex-column {
+    display: flex !important;
+    flex-direction: row !important;
+    padding-left: 0;
+  }
+
+  nav ul li {
+    padding: 0 15px 0 0;
+  }
+
+  #descriptionSection {
+    padding-left: 0px;
+    margin-top: 110px;
+  }
+
+
+
+  .card {
+    margin: 10px auto 40px auto;
+  }
+
+  .top-row {
+    display: block;
+    order: -1;
+  }
+
+  .side-row {
+    margin-top: 0 !important;
+  }
+
+  #contactAbout {
+    width: 380px;
+  }
+
+  #imgAbout img {
+    margin-right: -30px!important;
+  }
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 480px) and (max-device-width : 811px) {
+  
+  h3 {
+    width: 100%;
+    font-size: 1.4em;
+  }
+  
+  .page-wrapper {
+    background-size: 100% 100% !important;
+  }
+
+  .customNav {
+    position: fixed !important;
+    top: 0px!important;
+    right: 10px!important;
+    max-width: 100%;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    overflow: hidden;
+    padding: 20px;
+    background: azure;
+    z-index: 300;
+  }
+
+  nav ul.flex-column {
+    display: flex !important;
+    flex-direction: row !important;
+    padding-left: 0;
+    justify-content: space-around;
+  }
+
+  nav ul li {
+    padding: 0 30px 0 0;
+    font-size:bigger;
+  }
+
+  h1 {
+    font-size: 80px !important;
+    line-height: 85px !important;
+    letter-spacing: 1px !important;
+    left: 60px;
+    top: 100px;
+  }
+
+  .jumboPic {
+    background-position: 50% 0%;
+    margin-right: 0;
+    background-size: cover;
+    height: 70vh;
+  }
+  #descriptionSection {
+    padding-left: 0px;
+    margin-top: 110px;
+  }
+
+  .side-row {
+    margin-top: 0px !important;
+  }
+
+#git-pf {
+    background-image: url("../images/git_img.jpg");
+    height: 150px!important;
+}
 }
