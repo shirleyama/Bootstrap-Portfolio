@@ -1,59 +1,263 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 20px 0;
+}
+
 /* Jumbotron  */
 h1 {
-    position: absolute;
-    color: #ba60db;
-    font-weight: 800!important;
-    font-size: 140px!important;
-    line-height: 143px!important;
-    letter-spacing: -4px!important;
-    z-index: 1;
-    left: 50px;
-    top: 100px;
-    text-align: left;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
-  .customNav {
-    position: fixed!important;
-    top:100px;
-    right:100px;
+  position: absolute;
+  color: #ba60db;
+  font-weight: 800 !important;
+  font-size: 140px !important;
+  line-height: 143px !important;
+  letter-spacing: -4px !important;
+  z-index: 1;
+  left: 50px;
+  top: 100px;
+  text-align: left;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+h2 {
+  font-size: 1.8em;
+  font-weight: 800;
+
+}
+
+h3 {
+  width: 50%;
+  font-size: 1.5em;
+  font-weight: 800;
+}
+
+p {
+  margin: 0 0 20px 0;
+  font-size: 1.1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.customNav {
+  position: fixed !important;
+  top: 100px;
+  right: 100px;
 
 
 }
-.page-wrapper{
-    background: linear-gradient(to bottom, #e9ecef 0, #e9ecef 100%) no-repeat;
-    background-size: calc(100% - 590px) calc(100% - 100px); /* Reduce height of background by 100px and width by 100px*/  
-    padding: 0;  /* 50px border + 30px additional padding */
-    
 
+.page-wrapper {
+  background: linear-gradient(to bottom, #efe5f3 0, #efe5f3 100%) no-repeat;
+  background-size: calc(100% - 590px) calc(100% - 100px);
+  /* Reduce height of background by 100px and width by 100px*/
+  padding: 0;
+  /* 50px border + 30px additional padding */
 }
+
 .jumbotron {
-    height: 100vh;
-    background-color: transparent;;
- }
-  
-  /* Jumbotron copy */
-  .jumboPic {
-    background-image: url(../images/profile-shirley-thompson.png);
-    background-size: 62%;
-    background-position:100% 15% ;
-    background-repeat: no-repeat;
-    height: calc(100vh - 25px);
+  height: 100vh;
+  background-color: transparent;
+  ;
+}
 
+/* Jumbotron copy */
+.jumboPic {
+  background-image: url(../images/profile-shirley-thompson.png);
+  background-size: 62%;
+  background-position: 83% 15%;
+  background-repeat: no-repeat;
+  height: calc(100vh - 25px);
+
+}
+
+.container {
+  margin-left: 50px !important;
+  margin-top: 90px;
+}
+
+.aboutArea {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#imgAbout img {
+  height: 250px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#descriptionSection {
+  padding-left: 0px;
+}
+
+
+
+#contactAbout {
+  cursor: pointer;
+  position: relative;
+  top: 0px;
+  background: #ba60db;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+}
+
+#contactAbout a,
+#contactAbout p {
+  color: #fff;
+  padding: 0 0 20px 0;
+}
+
+.cardContainer {
+  margin-top: 20px;
+}
+
+.card {
+  margin: 0 auto;
+}
+
+.card img {
+  border: 1px solid rgb(119, 119, 146);
+}
+
+.card-title {
+  margin-bottom: 0.75rem;
+  position: absolute;
+  top: -30px;
+  left: 0;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #ba60db!important;
+  border-color: #ba60db!important;
+}
+
+
+#html-pf {
+  background-image: url("../images/html_img.jpg");
+  height: 150px;
+}
+
+#git-pf {
+  background-image: url("../images/git_img.jpg");
+  height: 310px;
+}
+
+#gui-pf {
+  background-image: url("../images/gui_img.jpg");
+  height: 150px;
+}
+
+#css-pf {
+  background-image: url("../images/css_img.jpg");
+  height: 150px;
+}
+
+#graphics-pf {
+  background-image: url("../images/graphics.jpg");
+  height: 150px;
+}
+
+.portfolioGridArea {
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  /* display: grid;
+  align-content: end;*/
+}
+
+#portfolio .heading {
+  font-weight: 600;
+  font-size: 1.2em;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 0 0;
+}
+
+.top-row {
+  display: flex;
+  order: -1;
+}
+
+
+.mid-row {
+  /* max-height: 150px !important;*/
+}
+
+.side-row {
+  margin-top: -160px !important;
+}
+
+.nest-row {
+  padding: 0 !important;
+}
+
+/* Contact section */
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+    /* Allow  vertical resize of the textarea */
+}
+
+/* Submit button */
+input[type=submit] {
+  background-color: #ba60db;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Hovering over button changes colour */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+footer {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #f5f5f5;
+  margin-top: 50px;
+}
+
+*---------- Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .container {
+    margin-left:0 !important;
   }
-  
-  .cardContainer {
-    margin-top: 20px;
-  }
-  
-  .card {
-    margin: 0 auto;
-  }
-  
-  footer {
-    position: absolute;
-    width: 100%;
-    height: 60px;
-    line-height: 60px;
-    background-color: #f5f5f5;
-    margin-top: 50px;
-  } 
+}
