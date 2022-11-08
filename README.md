@@ -18,7 +18,7 @@ To access the website click [Shirley Thompson Portfolio](https://shirleyama.gith
 
 ## Usage 
 
-![Portfolio screenshot](assets/images/bootstrap-portfolio-screenshot.png)
+![Portfolio screenshot](assets/images/bootstrap-portfolio-screenshot.jpg)
 
 ## Credits
 
