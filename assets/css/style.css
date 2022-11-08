@@ -203,10 +203,6 @@ a {
 }
 
 
-.mid-row {
-  /* max-height: 150px !important;*/
-}
-
 .side-row {
   margin-top: -160px !important;
 }
@@ -255,7 +251,7 @@ footer {
   margin-top: 50px;
 }
 
-*---------- Smartphones (portrait and landscape) ----------- */
+/*---------- Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   .container {
     margin-left:0 !important;
