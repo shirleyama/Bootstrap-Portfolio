@@ -2,12 +2,16 @@
 A portfolio using Bootstrap
 
 ## Description 
-This is my original portfolio recreated in Bootstrap for the Bootcamp Unit 3 Challenge. It showcases my skills and talents to potential employers. Looking at it in a browser, it would seem almost identical to the original, yet et it uses a completely different framework, which should make it respond much better in other devices with minimal use of media queries.
+This is my original portfolio recreated in Bootstrap for the Bootcamp Unit 3 Challenge. It showcases my skills and talents to potential employers. Looking at it in a browser, it would seem almost identical to the original, yet it uses a completely different framework, which should make it respond much better in other devices with minimal use of media queries.
+
+I found nesting bootstrap grids quite challenging and used comments a lot to highlight the different rows and columns.
 
 ### The URL of the GitHub repository.
+
 [Shirley Thompson Portfolio on GitHub repository](https://github.com/shirleyama/Bootstrap-Portfolio)
 
 ### The URL of the functional, deployed application on GitHub Pages.
+
 [Shirley Thompson Portfolio](https://shirleyama.github.io/Bootstrap-Portfolio/)
 
 
