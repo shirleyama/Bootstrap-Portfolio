@@ -7,7 +7,6 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
-  overflow-x: hidden;
 }
 
 h1,
@@ -16,6 +15,12 @@ h3,
 h4,
 h5 {
   margin: 0 0 20px 0;
+}
+
+/* Header  */
+.container-fluid {
+  margin: 0 -15px;
+  /* stops page moving left and right*/
 }
 
 /* Jumbotron  */
@@ -31,7 +36,7 @@ h1 {
   top: 100px;
   text-align: left;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  overflow-x: hidden;
+  
 }
 
 h2 {
@@ -86,6 +91,7 @@ a {
 }
 
 /* ------Main section styles-----------*/
+
 .container {
   margin-left: 50px !important;
   margin-top: 90px;
@@ -151,11 +157,12 @@ a {
   border-color: #ba60db;
 }
 
-.btn-primary:hover, .btn-primary:active {
+.btn-primary:hover,
+.btn-primary:active {
   color: #fff;
-  background-color: #000!important;
-  border-color: #000!important;
-  box-shadow: 5px 5px 10px #888888!important;
+  background-color: #000 !important;
+  border-color: #000 !important;
+  box-shadow: 5px 5px 10px #888888 !important;
 }
 
 /* ----------Portfolio section------------- */
@@ -244,18 +251,17 @@ input[type=submit] {
 }
 
 /* Hovering over button changes colour */
-input[type=submit]:hover, input[type=submit]:active {
-  background-color: #000!important;
-  box-shadow: 5px 5px 10px #888888!important;
+input[type=submit]:hover,
+input[type=submit]:active {
+  background-color: #000 !important;
+  box-shadow: 5px 5px 10px #888888 !important;
 }
 
 /*--------------- Footer section-------------- */
 footer {
   position: absolute;
   width: 100%;
-
   line-height: 60px;
-  margin-top: 10px;
 }
 
 footer .container {
@@ -266,16 +272,17 @@ footer .flex-row {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  align-content: center;
   list-style-type: none;
   padding-left: 0;
+  margin-top: 0px;
 }
 
 footer a.nav-link {
   color: #fff;
 }
 
-a.nav-link:hover, a.nav-link:active {
+a.nav-link:hover,
+a.nav-link:active {
   color: #ba60db !important;
 
 
@@ -361,19 +368,6 @@ footer .sTcopyright {
     margin-top: 110px;
   }
 
-  .ripple {
-    background-position: center;
-    transition: background 0.5s;
-  }
-  .ripple:hover {
-    background: var(--focus-color) radial-gradient(circle, transparent 1%, var(--focus-color) 1%) center/15000%;
-  }
-  .ripple:active {
-    background-color: var(--active-color);
-    background-size: 100%;
-    transition: background 0s;
-  }
-
   /* -------Mobile About section styles -------*/
   #contactAbout {
     width: 100%;
@@ -382,18 +376,8 @@ footer .sTcopyright {
   #imgAbout img {
     margin-right: -30px !important;
   }
-.ripple {
-  background-position: center;
-  transition: background 0.5s;
-}
-.ripple:hover {
-  background: var(--focus-color) radial-gradient(circle, transparent 1%, var(--focus-color) 1%) center/15000%;
-}
-.ripple:active {
-  background-color: var(--active-color);
-  background-size: 100%;
-  transition: background 0s;
-}
+
+
   /* Mobile Work section styles */
   .card {
     margin: 10px auto 40px auto;
