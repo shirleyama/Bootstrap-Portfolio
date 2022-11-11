@@ -18,10 +18,7 @@ h5 {
 }
 
 /* Header  */
-.container-fluid {
-  margin: 0 -15px;
-  /* stops page moving left and right*/
-}
+
 
 /* Jumbotron  */
 h1 {
@@ -36,7 +33,7 @@ h1 {
   top: 100px;
   text-align: left;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  
+
 }
 
 h2 {
@@ -64,6 +61,10 @@ a {
   background-size: calc(100% - 590px) calc(100%);
   /* Reduce width of background by 100px */
   padding: 0;
+}
+
+.row.rowMain {
+  width: calc(100% - 15px);
 }
 
 /* -------Nav styles-------- */
@@ -114,7 +115,7 @@ a {
 }
 
 #contactAbout a,
-#contactAbout p {
+row #contactAbout p {
   color: #fff;
   padding: 0 0 20px 0;
 }
@@ -316,6 +317,12 @@ footer .sTcopyright {
   h3 {
     width: 100%;
     font-size: 1.2em;
+  }
+
+  /* ------------Mobile Header styles------------ */
+
+  .row.rowMain {
+    width: calc(100% + 30px);
   }
 
   /* ------------Mobile Nav styles------------ */
